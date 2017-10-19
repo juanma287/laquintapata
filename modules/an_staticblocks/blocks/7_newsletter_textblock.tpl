@@ -1,0 +1,1 @@
+<p>Subscribe to the <span>agnezit</span> mailing list to receive updates on new arrivals, special offers and other discount information.</p>

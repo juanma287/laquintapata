@@ -1,0 +1,36 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_35dc41a87e863f4c5b72928e1674e515'] = 'Inicio de desplazamiento';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_962e070c822f7da788b1c226895ce9ab'] = 'Se desplaza al principio';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_bb8956c67b82c7444a80c6b2433dd8b4'] = '¿Está seguro de que desea desinstalar este módulo?';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_f4f70727dc34561dfde1a3c529b6205c'] = 'ajustes';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_02f4a6b6f8d42182bb4ec22152ab4f93'] = 'Introduzca el ancho del margen';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_c13c4742917ba29e6c3417f84f789601'] = 'Ancho del borde';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_dc08fa8a448db10a95f9f4c2122707b5'] = 'Seleccionar un color de borde';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_d8404c62148d50f3388a992e47f9fbcf'] = 'Color del borde';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_933a94b604b07126d67f5c5d8153351c'] = 'Introduzca un radio de frontera';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_b6bc6234dd2b0f9b05c0ce4825c620a8'] = 'radio de frontera';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_d7ae2021537df539543101d0739ce710'] = 'Seleccionar un fondo de botón';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_626dedb042ac711ca05c22348338e772'] = 'fondo del botón';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_6b30314fb6aa921d4afcd5b14773a1b8'] = 'Introduzca un ancho de botón';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_8c78b27ebd36a912e06156bfa7d33c1e'] = 'ancho del botón';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_cb3b07ae3406434bd7305029b2660026'] = 'Introducir una altura de botón';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_820a057e8ce053de4e5abf3c71b2b315'] = 'altura de botón';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_506c15e908aa7f99affcc15c5ba5946d'] = 'Introduzca un icono del botón';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_86fd9ac74348511e2b65929c4af0572b'] = 'ícono del botón';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_8e97369523fb0abe64838661b5796b7d'] = 'Seleccionar un color del icono';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_534b7c706186028f1b4f51344bbca176'] = 'El color del icono';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_22881b0cd7b407e1e7809fc65d82fc8e'] = 'Introduzca un tamaño de icono';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_fc23ffe3bc715a46cc8b63071ded5fda'] = 'Tamaño de ícono';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_53060beb10dcc93f2615e6d437a1fc8e'] = 'Ingrese una sangría botón de coordenada x';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_ba9da88fbf5d2d8b44672acabd9abada'] = 'Botón X-guión';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_249a486a01a52e64581099985fec2e7d'] = 'Ingrese una sangría botón de coordenada';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_87296284e467c853bc0b428c705ba2dc'] = 'Y Botón-guión';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_03f537e13bdc41f952f703c33ab7b5d4'] = 'Introduzca una opacidad botón';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_16cdc34df27de4fb25f6c1945edc55ea'] = 'opacidad botón';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_2d1fba9df09cdba3c724341b4841b601'] = 'Seleccione una posición del botón';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_7a00c306bc10849e3e97155492fa5758'] = 'posición del botón';
+$_MODULE['<{anscrolltop}agnezit>anscrolltop_c9cc8cce247e49bae79f15173ce97354'] = 'Salvar';
+$_MODULE['<{anscrolltop}agnezit>configure_31fde7b05ac8952dacf4af8a704074ec'] = 'preestreno';
