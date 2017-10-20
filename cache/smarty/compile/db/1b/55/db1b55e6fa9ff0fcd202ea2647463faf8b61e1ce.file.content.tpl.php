@@ -1,24 +1,22 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-10-10 19:47:14
+<?php /* Smarty version Smarty-3.1.19, created on 2017-10-20 18:58:01
          compiled from "C:\xampp\htdocs\laquintapatita\admin_patita\themes\default\template\controllers\login\content.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:560059dd4df26b9869-42168839%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1133059ea71694335a4-53370926%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'db1b55e6fa9ff0fcd202ea2647463faf8b61e1ce' => 
     array (
       0 => 'C:\\xampp\\htdocs\\laquintapatita\\admin_patita\\themes\\default\\template\\controllers\\login\\content.tpl',
-      1 => 1480102384,
+      1 => 1508536678,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '560059dd4df26b9869-42168839',
+  'nocache_hash' => '1133059ea71694335a4-53370926',
   'function' => 
   array (
   ),
   'variables' => 
   array (
-    'img_dir' => 0,
-    'ps_version' => 0,
     'errors' => 0,
     'nbErrors' => 0,
     'error' => 0,
@@ -34,18 +32,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59dd4df2761804_53710850',
+  'unifunc' => 'content_59ea71694ad3a2_72716074',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59dd4df2761804_53710850')) {function content_59dd4df2761804_53710850($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'C:\\xampp\\htdocs\\laquintapatita\\tools\\smarty\\plugins\\modifier.date_format.php';
-?>
+<?php if ($_valid && !is_callable('content_59ea71694ad3a2_72716074')) {function content_59ea71694ad3a2_72716074($_smarty_tpl) {?>
 <div id="login-panel">
 	<div id="login-header">
-		<h1 class="text-center">
-			<img id="logo" src="<?php echo $_smarty_tpl->tpl_vars['img_dir']->value;?>
-prestashop@2x.png" width="123px" height="24px" alt="PrestaShop" />
-		</h1>
-		<div class="text-center"><?php echo $_smarty_tpl->tpl_vars['ps_version']->value;?>
-</div>
+		
+	
 		<div id="error" class="hide alert alert-danger">
 		<?php if (isset($_smarty_tpl->tpl_vars['errors']->value)) {?>
 			<h4>
@@ -75,9 +68,7 @@ $_smarty_tpl->tpl_vars["error"]->_loop = true;
 </div>
 		<?php }?>
 	</div>
-	<div id="shop-img"><img src="<?php echo $_smarty_tpl->tpl_vars['img_dir']->value;?>
-preston-login@2x.png" alt="<?php echo $_smarty_tpl->tpl_vars['shop_name']->value;?>
-" width="69.5px" height="118.5px" /></div>
+
 	<div class="flip-container">
 		<div class="flipper">
 			<div class="front panel">
@@ -182,27 +173,6 @@ preston-login@2x.png" alt="<?php echo $_smarty_tpl->tpl_vars['shop_name']->value
 	</div>
 	<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>"displayAdminLogin"),$_smarty_tpl);?>
 
-	<div id="login-footer">
-		<p class="text-center text-muted">
-			<a href="http://www.prestashop.com/" onclick="return !window.open(this.href);">
-				&copy; PrestaShop&#8482; 2007-<?php echo smarty_modifier_date_format(time(),"%Y");?>
- - All rights reserved
-			</a>
-		</p>
-		<p class="text-center">
-			<a class="link-social link-twitter _blank" href="https://twitter.com/PrestaShop" title="Twitter">
-				<i class="icon-twitter"></i>
-			</a>
-			<a class="link-social link-facebook _blank" href="https://www.facebook.com/prestashop" title="Facebook">
-				<i class="icon-facebook"></i>
-			</a>
-			<a class="link-social link-github _blank" href="https://www.prestashop.com/github" title="Github">
-				<i class="icon-github"></i>
-			</a>
-			<a class="link-social link-google _blank" href="https://plus.google.com/+prestashop/" title="Google">
-				<i class="icon-google-plus"></i>
-			</a>
-		</p>
-	</div>
+
 </div>
 <?php }} ?>

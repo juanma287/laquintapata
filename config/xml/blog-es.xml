@@ -6,6 +6,23 @@
     <language>es</language>
      <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>¿Cómo crear una cuenta de Twitter profesional para tu negocio?</title>
+    <link>https://www.prestashop.com/es/blog/crear-cuenta-twitter</link>
+    <description>Hoy en día, si tienes un negocio, sea del tipo que sea y te dediques al sector que te dediques, tener presencia en redes sociales se ha convertido en un pilar fundamental dentro de tu estrategia de</description>
+     <pubDate>Wed, 18 Oct 2017 10:31:41 +0200</pubDate>
+ <dc:creator>Ismael Ruiz</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/crear-cuenta-twitter</guid>
+  </item>
+  <item>
+    <title>¡El fondo de integración consigue 1000 solicitudes!</title>
+    <link>https://www.prestashop.com/es/blog/prestashop-news/el-fondo-de-integracion-consigue-1000-solicitudes</link>
+    <description>¿Qué hemos logrado hasta ahora?
+ </description>
+     <pubDate>Mon, 16 Oct 2017 16:15:09 +0200</pubDate>
+ <dc:creator>margauxchoplin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/prestashop-news/el-fondo-de-integracion-consigue-1000-solicitudes</guid>
+  </item>
+  <item>
     <title> ¿Cómo atraer clientes gracias a la descripción de productos de mi eCommerce?</title>
     <link>https://www.prestashop.com/es/blog/atraer-clientes-ecommerce</link>
     <description>El sector del eCommerce sigue a día de hoy creciendo a pasos agigantados, dentro del mundo de los negocios online.</description>
@@ -68,22 +85,6 @@
      <pubDate>Thu, 28 Sep 2017 15:00:58 +0200</pubDate>
  <dc:creator>MPerez</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/es/blog/3-razones-para-visitarnos-al-ECSE-M%C3%A9xico-el-4-y-5-de-octubre-2017</guid>
-  </item>
-  <item>
-    <title>¿Cómo puedes vender en Instagram los productos de tu eCommerce? </title>
-    <link>https://www.prestashop.com/es/blog/como-vender-en-instagram</link>
-    <description>¿Puedo vender en Instagram mis productos o servicios?</description>
-     <pubDate>Thu, 21 Sep 2017 12:22:49 +0200</pubDate>
- <dc:creator>isabel.romero.carretero</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/es/blog/como-vender-en-instagram</guid>
-  </item>
-  <item>
-    <title>¿Qué es el error 500 y cómo solucionarlo en tu eCommerce?</title>
-    <link>https://www.prestashop.com/es/blog/error-500</link>
-    <description>¿Te han notificado alguna vez los usuarios de tu tienda online que, navegando por tu web, la pantalla de pronto se les quedaba en blanco?</description>
-     <pubDate>Wed, 30 Aug 2017 12:43:19 +0200</pubDate>
- <dc:creator>Eva Lacalle</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/es/blog/error-500</guid>
   </item>
   </channel>
 </rss>

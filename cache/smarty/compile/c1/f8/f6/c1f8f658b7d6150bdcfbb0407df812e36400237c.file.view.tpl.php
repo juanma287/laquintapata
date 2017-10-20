@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-10-10 19:47:35
+<?php /* Smarty version Smarty-3.1.19, created on 2017-10-20 19:07:50
          compiled from "C:\xampp\htdocs\laquintapatita\admin_patita\themes\default\template\controllers\dashboard\helpers\view\view.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:557059dd4e07f1ede2-22085644%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:238659ea73b6e802a2-94805866%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c1f8f658b7d6150bdcfbb0407df812e36400237c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\laquintapatita\\admin_patita\\themes\\default\\template\\controllers\\dashboard\\helpers\\view\\view.tpl',
-      1 => 1480102384,
+      1 => 1508537122,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '557059dd4e07f1ede2-22085644',
+  'nocache_hash' => '238659ea73b6e802a2-94805866',
   'function' => 
   array (
   ),
@@ -29,13 +29,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'hookDashboardZoneTwo' => 0,
     'lang_iso' => 0,
     'host_mode' => 0,
-    'new_version_url' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59dd4e081113b1_80147003',
+  'unifunc' => 'content_59ea73b6f36fa7_33718652',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59dd4e081113b1_80147003')) {function content_59dd4e081113b1_80147003($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59ea73b6f36fa7_33718652')) {function content_59ea73b6f36fa7_33718652($_smarty_tpl) {?>
 <script>
 	var dashboard_ajax_url = '<?php echo $_smarty_tpl->tpl_vars['link']->value->getAdminLink('AdminDashboard');?>
 ';
@@ -125,7 +124,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<?php echo $_smarty_tpl->tpl_vars['hookDashboardZoneOne']->value;?>
 
 		</div>
-		<div class="col-md-8 col-lg-7" id="hookDashboardZoneTwo">
+		<div class="col-md-8 col-lg-9" id="hookDashboardZoneTwo">
 			<?php echo $_smarty_tpl->tpl_vars['hookDashboardZoneTwo']->value;?>
 
 			<div id="dashaddons" class="row-margin-bottom">
@@ -136,57 +135,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</a>
 			</div>
 		</div>
-		<div class="col-md-12 col-lg-2">
-			<section class="dash_news panel">
-				<h3><i class="icon-rss"></i> <?php echo smartyTranslate(array('s'=>'PrestaShop News'),$_smarty_tpl);?>
-</h3>
-				<div class="dash_news_content"></div>
-				<div class="text-center"><h4><a href="http://www.prestashop.com/blog/" onclick="return !window.open(this.href);"><?php echo smartyTranslate(array('s'=>'Find more news'),$_smarty_tpl);?>
-</a></h4></div>
-			</section>
-			<section id="dash_version" class="visible-lg">
-				<iframe style="overflow:hidden;border:none" src="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['new_version_url']->value, ENT_QUOTES, 'UTF-8', true);?>
-" ></iframe>
-			</section>
-			<section class="dash_links panel">
-				<h3><i class="icon-link"></i> <?php echo smartyTranslate(array('s'=>"Useful links"),$_smarty_tpl);?>
-</h3>
-					<dl>
-						<dt><a href="http://doc.prestashop.com/display/PS16?utm_source=back-office&amp;utm_medium=dashboard&amp;utm_campaign=back-office-<?php echo mb_strtoupper($_smarty_tpl->tpl_vars['lang_iso']->value, 'UTF-8');?>
-&amp;utm_content=<?php if ($_smarty_tpl->tpl_vars['host_mode']->value) {?>cloud<?php } else { ?>download<?php }?>" class="_blank"><?php echo smartyTranslate(array('s'=>"Official Documentation"),$_smarty_tpl);?>
-</a></dt>
-						<dd><?php echo smartyTranslate(array('s'=>"User, Developer and Designer Guides"),$_smarty_tpl);?>
-</dd>
-					</dl>
-					<dl>
-						<dt><a href="http://www.prestashop.com/forums?utm_source=back-office&amp;utm_medium=dashboard&amp;utm_campaign=back-office-<?php echo mb_strtoupper($_smarty_tpl->tpl_vars['lang_iso']->value, 'UTF-8');?>
-&amp;utm_content=<?php if ($_smarty_tpl->tpl_vars['host_mode']->value) {?>cloud<?php } else { ?>download<?php }?>" class="_blank"><?php echo smartyTranslate(array('s'=>"PrestaShop Forum"),$_smarty_tpl);?>
-</a></dt>
-						<dd><?php echo smartyTranslate(array('s'=>"Connect with the PrestaShop community"),$_smarty_tpl);?>
-</dd>
-					</dl>
-					<dl>
-						<dt><a href="http://addons.prestashop.com?utm_source=back-office&amp;utm_medium=dashboard&amp;utm_campaign=back-office-<?php echo mb_strtoupper($_smarty_tpl->tpl_vars['lang_iso']->value, 'UTF-8');?>
-&amp;utm_content=<?php if ($_smarty_tpl->tpl_vars['host_mode']->value) {?>cloud<?php } else { ?>download<?php }?>" class="_blank"><?php echo smartyTranslate(array('s'=>"PrestaShop Addons"),$_smarty_tpl);?>
-</a></dt>
-						<dd><?php echo smartyTranslate(array('s'=>"Enhance your store with templates & modules"),$_smarty_tpl);?>
-</dd>
-					</dl>
-					<dl>
-						<dt><a href="http://forge.prestashop.com?utm_source=back-office&amp;utm_medium=dashboard&amp;utm_campaign=back-office-<?php echo mb_strtoupper($_smarty_tpl->tpl_vars['lang_iso']->value, 'UTF-8');?>
-&amp;utm_content=<?php if ($_smarty_tpl->tpl_vars['host_mode']->value) {?>cloud<?php } else { ?>download<?php }?>" class="_blank"><?php echo smartyTranslate(array('s'=>"The Forge"),$_smarty_tpl);?>
-</a></dt>
-						<dd><?php echo smartyTranslate(array('s'=>"Report issues in the Bug Tracker"),$_smarty_tpl);?>
-</dd>
-					</dl>
-					<dl>
-						<dt><a href="http://www.prestashop.com/en/contact-us?utm_source=back-office&amp;utm_medium=dashboard&amp;utm_campaign=back-office-<?php echo mb_strtoupper($_smarty_tpl->tpl_vars['lang_iso']->value, 'UTF-8');?>
-&amp;utm_content=<?php if ($_smarty_tpl->tpl_vars['host_mode']->value) {?>cloud<?php } else { ?>download<?php }?>" class="_blank"><?php echo smartyTranslate(array('s'=>"Contact Us!"),$_smarty_tpl);?>
-</a></dt>
-						<dd></dd>
-					</dl>
-			</section>
-		</div>
+		
 	</div>
 </div>
 <?php }} ?>

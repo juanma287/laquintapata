@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-10-13 17:48:51
+<?php /* Smarty version Smarty-3.1.19, created on 2017-10-20 19:08:08
          compiled from "C:\xampp\htdocs\laquintapatita\admin_patita\themes\default\template\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:3034159e126b3562ee0-04430243%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1498759ea73c8d90061-08579151%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '4ee1c4a7b9a4e1d598f3cbb13770fefeb474b1f6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\laquintapatita\\admin_patita\\themes\\default\\template\\header.tpl',
-      1 => 1480102384,
+      1 => 1508536908,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3034159e126b3562ee0-04430243',
+  'nocache_hash' => '1498759ea73c8d90061-08579151',
   'function' => 
   array (
   ),
@@ -46,11 +46,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'display_header' => 0,
     'employee' => 0,
     'collapse_menu' => 0,
-    'default_tab_link' => 0,
-    'version' => 0,
     'is_multishop' => 0,
     'shop_list' => 0,
     'multishop_context' => 0,
+    'default_tab_link' => 0,
     'show_new_orders' => 0,
     'show_new_customers' => 0,
     'show_new_messages' => 0,
@@ -59,8 +58,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'matchQuickLink' => 0,
     'quick_access_current_link_name' => 0,
     'quick_access_current_link_icon' => 0,
-    'logged_on_addons' => 0,
-    'display_addons_connection' => 0,
     'base_url' => 0,
     'base_url_tc' => 0,
     'maintenance_mode' => 0,
@@ -75,9 +72,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59e126b383e2e4_48810106',
+  'unifunc' => 'content_59ea73c9165f62_29598170',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59e126b383e2e4_48810106')) {function content_59e126b383e2e4_48810106($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59ea73c9165f62_29598170')) {function content_59ea73c9165f62_29598170($_smarty_tpl) {?>
 <!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 lt-ie6 " lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
@@ -236,11 +233,7 @@ $_smarty_tpl->tpl_vars['mediaie9']->_loop = true;
 				<button id="header_nav_toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-primary">
 					<i class="icon-reorder"></i>
 				</button>
-				<a id="header_shopversion" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['default_tab_link']->value, ENT_QUOTES, 'UTF-8', true);?>
-">
-					<span id="shop_version"><?php echo $_smarty_tpl->tpl_vars['version']->value;?>
-</span>
-				</a>
+				
 				
 				<?php if (isset($_smarty_tpl->tpl_vars['is_multishop']->value)&&$_smarty_tpl->tpl_vars['is_multishop']->value&&$_smarty_tpl->tpl_vars['shop_list']->value&&(isset($_smarty_tpl->tpl_vars['multishop_context']->value)&&$_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_GROUP||$_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_SHOP)) {?>
 					<ul id="header_shop">
@@ -449,18 +442,7 @@ $_smarty_tpl->tpl_vars['quick']->_loop = true;
 				</script>
 <?php }?>
 				<ul id="header_employee_box">
-					<?php if ((!isset($_smarty_tpl->tpl_vars['logged_on_addons']->value)||!$_smarty_tpl->tpl_vars['logged_on_addons']->value)&&(isset($_smarty_tpl->tpl_vars['display_addons_connection']->value)&&$_smarty_tpl->tpl_vars['display_addons_connection']->value)) {?>
-						<li class="hidden-sm hidden-xs">
-							<a href="#" class="addons_connect toolbar_btn" data-toggle="modal" data-target="#modal_addons_connect" title="<?php echo smartyTranslate(array('s'=>'Connect to PrestaShop Marketplace account'),$_smarty_tpl);?>
-">
-								<i class="icon-chain-broken"></i>
-								<span class="string-long"><?php echo smartyTranslate(array('s'=>'Connect to PrestaShop Marketplace account'),$_smarty_tpl);?>
-</span>
-								<span class="string-short"><?php echo smartyTranslate(array('s'=>'PrestaShop Marketplace'),$_smarty_tpl);?>
-</span>
-							</a>
-						</li>
-					<?php }?>
+				
 <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
 <?php $_tmp5=ob_get_clean();?><?php if ($_tmp5) {?>
 					<li>

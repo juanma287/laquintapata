@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-10-13 18:08:40
+<?php /* Smarty version Smarty-3.1.19, created on 2017-10-20 19:08:15
          compiled from "C:\xampp\htdocs\laquintapatita\themes\agnezit\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2352059e12b58781262-56538267%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2367559ea73cfa4c227-95917061%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2352059e12b58781262-56538267',
+  'nocache_hash' => '2367559ea73cfa4c227-95917061',
   'function' => 
   array (
   ),
@@ -58,9 +58,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59e12b58b13375_19654392',
+  'unifunc' => 'content_59ea73cff0ee39_35482521',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59e12b58b13375_19654392')) {function content_59e12b58b13375_19654392($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'C:\\xampp\\htdocs\\laquintapatita\\tools\\smarty\\plugins\\function.implode.php';
+<?php if ($_valid && !is_callable('content_59ea73cff0ee39_35482521')) {function content_59ea73cff0ee39_35482521($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'C:\\xampp\\htdocs\\laquintapatita\\tools\\smarty\\plugins\\function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>
