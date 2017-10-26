@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-10-20 19:08:15
+<?php /* Smarty version Smarty-3.1.19, created on 2017-10-25 19:16:10
          compiled from "C:\xampp\htdocs\laquintapatita\themes\agnezit\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2367559ea73cfa4c227-95917061%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1025659f10d2ac16307-34544497%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '169e3972bf863787dd1932d246a35de6feecfb0d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\laquintapatita\\themes\\agnezit\\header.tpl',
-      1 => 1507755979,
+      1 => 1508968372,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2367559ea73cfa4c227-95917061',
+  'nocache_hash' => '1025659f10d2ac16307-34544497',
   'function' => 
   array (
   ),
@@ -58,9 +58,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59ea73cff0ee39_35482521',
+  'unifunc' => 'content_59f10d2b341410_29673158',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59ea73cff0ee39_35482521')) {function content_59ea73cff0ee39_35482521($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'C:\\xampp\\htdocs\\laquintapatita\\tools\\smarty\\plugins\\function.implode.php';
+<?php if ($_valid && !is_callable('content_59f10d2b341410_29673158')) {function content_59f10d2b341410_29673158($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'C:\\xampp\\htdocs\\laquintapatita\\tools\\smarty\\plugins\\function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -213,24 +213,7 @@ if (!empty($_capture_buffer)) {
 
 						<?php if ($_smarty_tpl->tpl_vars['page_name']->value=='index') {?>
 							<?php if (Module::isEnabled('an_staticblocks')&&(Module::getInstanceByName('an_staticblocks')->isEnabledBlock('follow1')||Module::getInstanceByName('an_staticblocks')->isEnabledBlock('follow2')||Module::getInstanceByName('an_staticblocks')->isEnabledBlock('follow3'))) {?>
-								<div class="top_follow">
-									<div class="top_follow_inner">
-									<?php if (Module::getInstanceByName('an_staticblocks')->isEnabledBlock('follow1')) {?>
-									<?php echo Module::getInstanceByName('an_staticblocks')->getBlock('follow1','follow.tpl');?>
-
-									<?php }?>
-
-									<?php if (Module::getInstanceByName('an_staticblocks')->isEnabledBlock('follow2')) {?>
-									<?php echo Module::getInstanceByName('an_staticblocks')->getBlock('follow2','follow.tpl');?>
-
-									<?php }?>
-
-									<?php if (Module::getInstanceByName('an_staticblocks')->isEnabledBlock('follow3')) {?>
-									<?php echo Module::getInstanceByName('an_staticblocks')->getBlock('follow3','follow.tpl');?>
-
-									<?php }?>
-									</div>
-								</div>
+				
 							<?php }?>
 						<?php }?>
 

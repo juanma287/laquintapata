@@ -17,11 +17,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '2575959de88ff09b480-58193519',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59ea6e3821f8b4_29760088',
+  'unifunc' => 'content_59ee84e43d2b83_71069142',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59ea6e3821f8b4_29760088')) {function content_59ea6e3821f8b4_29760088($_smarty_tpl) {?>		
+<?php if ($_valid && !is_callable('content_59ee84e43d2b83_71069142')) {function content_59ee84e43d2b83_71069142($_smarty_tpl) {?>		
 									
 		
 	
@@ -35,7 +35,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				<div class="left-block">
 					<div class="product-image-container">
 						<a class="product_img_link" href="http://localhost/laquintapatita/inicio/1-pata-15-personas.html" title="Pata - 15 personas" itemprop="url">
-							<img class="replace-2x img-responsive" src="http://localhost/laquintapatita/13-home_default/pata-15-personas.jpg" alt="Pata - 15 personas" title="Pata - 15 personas"  width="640" height="640" itemprop="image" />
+							<img class="replace-2x img-responsive" src="http://localhost/laquintapatita/22-home_default/pata-15-personas.jpg" alt="Pata - 15 personas" title="Pata - 15 personas"  width="640" height="640" itemprop="image" />
 						</a>
 						
 						
@@ -44,7 +44,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 
 						
-													<span class="percent-reduction">-15%</span>
+													<span class="percent-reduction">-10%</span>
 																			<a class="new-label" href="http://localhost/laquintapatita/inicio/1-pata-15-personas.html">Nuevo</a>
 						
 
@@ -74,7 +74,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 														
 							
 							<span class="price product-price">
-								212,50 ARS							</span>
+								225,00 ARS							</span>
 							
 							
 							
@@ -92,7 +92,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div class="product-container" itemscope itemtype="https://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
-						<a class="product_img_link" href="http://localhost/laquintapatita/inicio/2-pata-20-personas.html" title="Pata - 20 personas" itemprop="url">
+						<a class="product_img_link" href="http://localhost/laquintapatita/inicio/2-pata-20-personas.html" title="Pata - 40 personas" itemprop="url">
 							<img class="replace-2x img-responsive" src="http://localhost/laquintapatita/14-home_default/pata-20-personas.jpg" alt="Pata - 20 personas" title="Pata - 20 personas"  width="640" height="640" itemprop="image" />
 						</a>
 						
@@ -115,8 +115,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 										
 				</div>
 				<div class="right-block">
-										<a class="product-name" href="http://localhost/laquintapatita/inicio/2-pata-20-personas.html" itemprop="name" title="Pata - 20 personas" itemprop="url" >
-						Pata - 20 personas
+										<a class="product-name" href="http://localhost/laquintapatita/inicio/2-pata-20-personas.html" itemprop="name" title="Pata - 40 personas" itemprop="url" >
+						Pata - 40 personas
 					</a>
 
 					<span class="delimeter"></span>
@@ -127,7 +127,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 														
 							
 							<span class="price product-price">
-								500,00 ARS							</span>
+								1 000,00 ARS							</span>
 							
 							
 							

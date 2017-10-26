@@ -11,18 +11,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '1641459e13edd1f8fb5-66546619',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59ea6b141ae4d4_47055018',
+  'unifunc' => 'content_59ee850ec7a2c2_60631463',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59ea6b141ae4d4_47055018')) {function content_59ea6b141ae4d4_47055018($_smarty_tpl) {?><meta property="og:type" content="product" />
+<?php if ($_valid && !is_callable('content_59ee850ec7a2c2_60631463')) {function content_59ee850ec7a2c2_60631463($_smarty_tpl) {?><meta property="og:type" content="product" />
 <meta property="og:url" content="http://localhost/laquintapatita/inicio/2-pata-20-personas.html" />
-<meta property="og:title" content="Pata - 20 personas - La Quinta Pata" />
+<meta property="og:title" content="Pata - 40 personas - La Quinta Pata" />
 <meta property="og:site_name" content="La Quinta Pata" />
 <meta property="og:description" content="Pata de 10 kgs. + 6 salsas gourmet + 90 bollitos de panes saborizados + 2kg. De pan casero de campo + piononos y canapés + surtidos o empanaditas de copetín de jamón y queso o humita." />
 <meta property="og:image" content="http://localhost/laquintapatita/14-large_default/pata-20-personas.jpg" />
-<meta property="product:pretax_price:amount" content="500" />
+<meta property="product:pretax_price:amount" content="1000" />
 <meta property="product:pretax_price:currency" content="ARS" />
-<meta property="product:price:amount" content="500" />
+<meta property="product:price:amount" content="1000" />
 <meta property="product:price:currency" content="ARS" />
 <?php }} ?>

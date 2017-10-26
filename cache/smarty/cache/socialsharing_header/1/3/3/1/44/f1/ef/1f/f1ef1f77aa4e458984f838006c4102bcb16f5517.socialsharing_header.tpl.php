@@ -11,18 +11,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '1641459e13edd1f8fb5-66546619',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59ea36643ddb51_17163465',
+  'unifunc' => 'content_59ee84fd0fd6d4_64420394',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59ea36643ddb51_17163465')) {function content_59ea36643ddb51_17163465($_smarty_tpl) {?><meta property="og:type" content="product" />
+<?php if ($_valid && !is_callable('content_59ee84fd0fd6d4_64420394')) {function content_59ee84fd0fd6d4_64420394($_smarty_tpl) {?><meta property="og:type" content="product" />
 <meta property="og:url" content="http://localhost/laquintapatita/inicio/1-pata-15-personas.html" />
 <meta property="og:title" content="Pata - 15 personas - La Quinta Pata" />
 <meta property="og:site_name" content="La Quinta Pata" />
 <meta property="og:description" content="Pata de ternera 9 kgs. + 80 bollitos saborizados provenzal y cebolla + 2 kg. de pan de campo + 6 salsas gorumet" />
-<meta property="og:image" content="http://localhost/laquintapatita/13-large_default/pata-15-personas.jpg" />
-<meta property="product:pretax_price:amount" content="212.5" />
+<meta property="og:image" content="http://localhost/laquintapatita/22-large_default/pata-15-personas.jpg" />
+<meta property="product:pretax_price:amount" content="225" />
 <meta property="product:pretax_price:currency" content="ARS" />
-<meta property="product:price:amount" content="212.5" />
+<meta property="product:price:amount" content="225" />
 <meta property="product:price:currency" content="ARS" />
 <?php }} ?>

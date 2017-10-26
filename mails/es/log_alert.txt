@@ -9,6 +9,5 @@ Office.
 Puedes comprobarlo en la sección "HERRAMIENTAS"> "REGISTROS" del
 Back Office de tu tienda. 		 
 
-{shop_name} [/{shop_url}] creado por PrestaShop(tm)
-[http://www.prestashop.com/] 
+{shop_name} [/{shop_url}] 
 

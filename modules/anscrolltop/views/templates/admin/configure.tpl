@@ -24,7 +24,7 @@
 *}
 <div class="panel">
 	<h3><i class="icon icon-credit-card"></i> {l s='Preview' mod='anscrolltop'}</h3>
-	<div id="scrolltopbtn" style="position: static">&#x{$ICON|escape:'htmlall':'UTF-8'};</div>
+	
 </div>
 {foreach from=$errors item=error}
 <div class="bootstrap">

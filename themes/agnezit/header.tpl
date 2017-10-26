@@ -125,21 +125,7 @@
 							Module::getInstanceByName('an_staticblocks')->isEnabledBlock('follow2') OR 
 							Module::getInstanceByName('an_staticblocks')->isEnabledBlock('follow3') )
 							}
-								<div class="top_follow">
-									<div class="top_follow_inner">
-									{if Module::getInstanceByName('an_staticblocks')->isEnabledBlock('follow1')}
-									{Module::getInstanceByName('an_staticblocks')->getBlock('follow1', 'follow.tpl') nofilter}
-									{/if}
-
-									{if Module::getInstanceByName('an_staticblocks')->isEnabledBlock('follow2')}
-									{Module::getInstanceByName('an_staticblocks')->getBlock('follow2', 'follow.tpl') nofilter}
-									{/if}
-
-									{if Module::getInstanceByName('an_staticblocks')->isEnabledBlock('follow3')}
-									{Module::getInstanceByName('an_staticblocks')->getBlock('follow3', 'follow.tpl') nofilter}
-									{/if}
-									</div>
-								</div>
+				
 							{/if}
 						{/if}
 
