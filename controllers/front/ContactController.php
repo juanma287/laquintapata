@@ -36,9 +36,25 @@ class ContactControllerCore extends FrontController
     public function postProcess()
     {
         if (Tools::isSubmit('submitMessage')) {
+           
+            // inicio cambio
+            $message = '';
+            $nombre = Tools::getValue('nombre');
+            $telefono =   Tools::getValue('telefono');      
+   
+            if($nombre)
+              $message = 'Nombre:'.$nombre.'<br>';
+            if($telefono)
+              $message .= 'Telefono:'.$telefono.'<br>';   
+              // fin cambio
+            
             $extension = array('.txt', '.rtf', '.doc', '.docx', '.pdf', '.zip', '.png', '.jpeg', '.gif', '.jpg');
             $file_attachment = Tools::fileAttachment('fileUpload');
-            $message = Tools::getValue('message'); // Html entities is not usefull, iscleanHtml check there is no bad html tags.
+            
+            // inicio cambio
+            $message .= Tools::getValue('message'); // Html entities is not usefull, iscleanHtml check there is no bad html tags.
+         // fin cambio
+            
             if (!($from = trim(Tools::getValue('from'))) || !Validate::isEmail($from)) {
                 $this->errors[] = Tools::displayError('Invalid email address.');
             } elseif (!$message) {

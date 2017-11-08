@@ -1,6 +1,6 @@
 <!-- Block user information module NAV  -->
 {if $is_logged}
-	<div class="sign-block languages-block header_user_info">
+	<div class="sign-block languages-block header_user_info" style="margin-top: 30px;" >
 		<div class="current click_elem"></div>
 		<ul class="languages-block_ul hide_content">
 			<li class="login__item"><a class="logout login__link" href="{$link->getPageLink('index', true, NULL, "mylogout")|escape:'html':'UTF-8'}" rel="nofollow" title="{l s='Log me out' mod='blockuserinfo'}">
@@ -17,7 +17,7 @@
 		</ul>
 	</div>
 	{else}
-		<div class="header_user_info sign-block" >
+		<div class="header_user_info sign-block" style="margin-top: 30px;" >
 			<div class="current click_elem"></div>
 		
 			<ul class="languages-block_ul hide_content">

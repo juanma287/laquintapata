@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-10-12 17:50:19
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-07 18:15:14
          compiled from "C:\xampp\htdocs\laquintapatita\themes\agnezit\contact-form.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:877859dfd58b3374b1-88815244%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:203265a022262595bb3-41066440%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'caee2c5ffcdc2745372f4823c3f13848c95117c8' => 
     array (
       0 => 'C:\\xampp\\htdocs\\laquintapatita\\themes\\agnezit\\contact-form.tpl',
-      1 => 1507755979,
+      1 => 1510088372,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '877859dfd58b3374b1-88815244',
+  'nocache_hash' => '203265a022262595bb3-41066440',
   'function' => 
   array (
   ),
@@ -28,23 +28,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'contact' => 0,
     'flag' => 0,
     'email' => 0,
-    'PS_CATALOG_MODE' => 0,
-    'is_logged' => 0,
-    'orderList' => 0,
-    'order' => 0,
-    'orderedProductList' => 0,
-    'id_order' => 0,
-    'products' => 0,
-    'product' => 0,
-    'fileupload' => 0,
-    'max_upload_size' => 0,
     'message' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59dfd58b6c95b1_42230838',
+  'unifunc' => 'content_5a0222626b2e78_02276523',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59dfd58b6c95b1_42230838')) {function content_59dfd58b6c95b1_42230838($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a0222626b2e78_02276523')) {function content_5a0222626b2e78_02276523($_smarty_tpl) {?>
 <?php $_smarty_tpl->_capture_stack[0][] = array('path', null, null); ob_start(); ?><?php echo smartyTranslate(array('s'=>'Contact'),$_smarty_tpl);?>
 <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
 if (!empty($_capture_buffer)) {
@@ -152,8 +142,7 @@ $_smarty_tpl->tpl_vars['contact']->_loop = true;
 						<?php } ?>
 					<?php }?>
 					<p class="form-group">
-						<label for="email"><?php echo smartyTranslate(array('s'=>'Email address'),$_smarty_tpl);?>
-</label>
+						<label for="email">Su e-mail</label>
 						<?php if (isset($_smarty_tpl->tpl_vars['customerThread']->value['email'])) {?>
 							<input class="form-control grey" type="text" id="email" name="from" value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['customerThread']->value['email'], ENT_QUOTES, 'UTF-8', true);?>
 " readonly="readonly" />
@@ -162,83 +151,19 @@ $_smarty_tpl->tpl_vars['contact']->_loop = true;
 " />
 						<?php }?>
 					</p>
-					<?php if (!$_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value) {?>
-						<?php if ((!isset($_smarty_tpl->tpl_vars['customerThread']->value['id_order'])||$_smarty_tpl->tpl_vars['customerThread']->value['id_order']>0)) {?>
-							<div class="form-group selector1">
-								<label><?php echo smartyTranslate(array('s'=>'Order reference'),$_smarty_tpl);?>
-</label>
-								<?php if (!isset($_smarty_tpl->tpl_vars['customerThread']->value['id_order'])&&isset($_smarty_tpl->tpl_vars['is_logged']->value)&&$_smarty_tpl->tpl_vars['is_logged']->value) {?>
-									<select name="id_order" class="form-control">
-										<option value="0"><?php echo smartyTranslate(array('s'=>'-- Choose --'),$_smarty_tpl);?>
-</option>
-										<?php  $_smarty_tpl->tpl_vars['order'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['order']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['orderList']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['order']->key => $_smarty_tpl->tpl_vars['order']->value) {
-$_smarty_tpl->tpl_vars['order']->_loop = true;
-?>
-											<option value="<?php echo intval($_smarty_tpl->tpl_vars['order']->value['value']);?>
-"<?php if (intval($_smarty_tpl->tpl_vars['order']->value['selected'])) {?> selected="selected"<?php }?>><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['order']->value['label'], ENT_QUOTES, 'UTF-8', true);?>
-</option>
-										<?php } ?>
-									</select>
-								<?php } elseif (!isset($_smarty_tpl->tpl_vars['customerThread']->value['id_order'])&&empty($_smarty_tpl->tpl_vars['is_logged']->value)) {?>
-									<input class="form-control grey" type="text" name="id_order" id="id_order" value="<?php if (isset($_smarty_tpl->tpl_vars['customerThread']->value['id_order'])&&intval($_smarty_tpl->tpl_vars['customerThread']->value['id_order'])>0) {?><?php echo intval($_smarty_tpl->tpl_vars['customerThread']->value['id_order']);?>
-<?php } else { ?><?php if (isset($_POST['id_order'])&&!empty($_POST['id_order'])) {?><?php echo htmlspecialchars($_POST['id_order'], ENT_QUOTES, 'UTF-8', true);?>
-<?php }?><?php }?>" />
-								<?php } elseif (intval($_smarty_tpl->tpl_vars['customerThread']->value['id_order'])>0) {?>
-									<input class="form-control grey" type="text" name="id_order" id="id_order" value="<?php if (isset($_smarty_tpl->tpl_vars['customerThread']->value['reference'])&&$_smarty_tpl->tpl_vars['customerThread']->value['reference']) {?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['customerThread']->value['reference'], ENT_QUOTES, 'UTF-8', true);?>
-<?php } else { ?><?php echo intval($_smarty_tpl->tpl_vars['customerThread']->value['id_order']);?>
-<?php }?>" readonly="readonly" />
-								<?php }?>
-							</div>
-						<?php }?>
-						<?php if (isset($_smarty_tpl->tpl_vars['is_logged']->value)&&$_smarty_tpl->tpl_vars['is_logged']->value) {?>
-							<div class="form-group selector1">
-								<label class="unvisible"><?php echo smartyTranslate(array('s'=>'Product'),$_smarty_tpl);?>
-</label>
-								<?php if (!isset($_smarty_tpl->tpl_vars['customerThread']->value['id_product'])) {?>
-									<?php  $_smarty_tpl->tpl_vars['products'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['products']->_loop = false;
- $_smarty_tpl->tpl_vars['id_order'] = new Smarty_Variable;
- $_from = $_smarty_tpl->tpl_vars['orderedProductList']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
- $_smarty_tpl->tpl_vars['products']->index=-1;
-foreach ($_from as $_smarty_tpl->tpl_vars['products']->key => $_smarty_tpl->tpl_vars['products']->value) {
-$_smarty_tpl->tpl_vars['products']->_loop = true;
- $_smarty_tpl->tpl_vars['id_order']->value = $_smarty_tpl->tpl_vars['products']->key;
- $_smarty_tpl->tpl_vars['products']->index++;
- $_smarty_tpl->tpl_vars['products']->first = $_smarty_tpl->tpl_vars['products']->index === 0;
- $_smarty_tpl->tpl_vars['smarty']->value['foreach']['products']['first'] = $_smarty_tpl->tpl_vars['products']->first;
-?>
-										<select name="id_product" id="<?php echo $_smarty_tpl->tpl_vars['id_order']->value;?>
-_order_products" class="unvisible product_select form-control"<?php if (!$_smarty_tpl->getVariable('smarty')->value['foreach']['products']['first']) {?> style="display:none;"<?php }?><?php if (!$_smarty_tpl->getVariable('smarty')->value['foreach']['products']['first']) {?> disabled="disabled"<?php }?>>
-											<option value="0"><?php echo smartyTranslate(array('s'=>'-- Choose --'),$_smarty_tpl);?>
-</option>
-											<?php  $_smarty_tpl->tpl_vars['product'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['product']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['products']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['product']->key => $_smarty_tpl->tpl_vars['product']->value) {
-$_smarty_tpl->tpl_vars['product']->_loop = true;
-?>
-												<option value="<?php echo intval($_smarty_tpl->tpl_vars['product']->value['value']);?>
-"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value['label'], ENT_QUOTES, 'UTF-8', true);?>
-</option>
-											<?php } ?>
-										</select>
-									<?php } ?>
-								<?php } elseif ($_smarty_tpl->tpl_vars['customerThread']->value['id_product']>0) {?>
-									<input  type="hidden" name="id_product" id="id_product" value="<?php echo intval($_smarty_tpl->tpl_vars['customerThread']->value['id_product']);?>
-" readonly="readonly" />
-								<?php }?>
-							</div>
-						<?php }?>
-					<?php }?>
-					<?php if ($_smarty_tpl->tpl_vars['fileupload']->value==1) {?>
-						<p class="form-group">
-							<label for="fileUpload"><?php echo smartyTranslate(array('s'=>'Attach File'),$_smarty_tpl);?>
-</label>
-							<input type="hidden" name="MAX_FILE_SIZE" value="<?php if (isset($_smarty_tpl->tpl_vars['max_upload_size']->value)&&$_smarty_tpl->tpl_vars['max_upload_size']->value) {?><?php echo intval($_smarty_tpl->tpl_vars['max_upload_size']->value);?>
-<?php } else { ?>2000000<?php }?>" />
-							<input type="file" name="fileUpload" id="fileUpload" class="form-control" />
-						</p>
-					<?php }?>
+                                        
+                                        <!-- INICIO -->
+                                        <p class="form-group">
+                                            <label for="nombre">Nombre y Apellido</label>
+                                            <input class="form-control grey" type="text" id="nombre" name="nombre" value=""/>
+                                        </p>
+                                          <p class="form-group">
+                                              <label for="telefono">Tel&eacute;fono</label>
+                                              <input class="form-control grey" type="text" id="telefono" name="telefono" value=""/>
+                                        </p>
+                                        <!-- FIN  -->
+                                        
+					
 				</div>
 				<div class="col-xs-12 col-md-9">
 					<div class="form-group">

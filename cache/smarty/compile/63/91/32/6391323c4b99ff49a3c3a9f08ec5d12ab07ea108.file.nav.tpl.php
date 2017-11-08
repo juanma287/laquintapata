@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-10-25 19:16:12
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-07 18:15:15
          compiled from "C:\xampp\htdocs\laquintapatita\themes\agnezit\modules\blockuserinfo\nav.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1362859f10d2c05fc27-84903047%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:5055a02226339a1c4-80021902%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '6391323c4b99ff49a3c3a9f08ec5d12ab07ea108' => 
     array (
       0 => 'C:\\xampp\\htdocs\\laquintapatita\\themes\\agnezit\\modules\\blockuserinfo\\nav.tpl',
-      1 => 1507755989,
+      1 => 1510010661,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1362859f10d2c05fc27-84903047',
+  'nocache_hash' => '5055a02226339a1c4-80021902',
   'function' => 
   array (
   ),
@@ -23,11 +23,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59f10d2c153828_67750666',
+  'unifunc' => 'content_5a0222634f5ca3_88751534',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59f10d2c153828_67750666')) {function content_59f10d2c153828_67750666($_smarty_tpl) {?><!-- Block user information module NAV  -->
+<?php if ($_valid && !is_callable('content_5a0222634f5ca3_88751534')) {function content_5a0222634f5ca3_88751534($_smarty_tpl) {?><!-- Block user information module NAV  -->
 <?php if ($_smarty_tpl->tpl_vars['is_logged']->value) {?>
-	<div class="sign-block languages-block header_user_info">
+	<div class="sign-block languages-block header_user_info" style="margin-top: 30px;" >
 		<div class="current click_elem"></div>
 		<ul class="languages-block_ul hide_content">
 			<li class="login__item"><a class="logout login__link" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('index',true,null,"mylogout"), ENT_QUOTES, 'UTF-8', true);?>
@@ -63,7 +63,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
 	</div>
 	<?php } else { ?>
-		<div class="header_user_info sign-block" >
+		<div class="header_user_info sign-block" style="margin-top: 30px;" >
 			<div class="current click_elem"></div>
 		
 			<ul class="languages-block_ul hide_content">

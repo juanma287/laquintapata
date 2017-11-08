@@ -1,7 +1,21 @@
 .shop-phone {
-  float: left;
-  padding: 5px 0 10px;
-  line-height: 18px; }
+float: right;
+font-size: 16px;
+font-weight: 600;
+color: #ffffff;
+background: url(../../../img/phone-icon.png) no-repeat center left;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../../../img/phone-icon.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: left;
+    background-position-y: center;
+    background-size: auto auto;
+padding: 0px 0px 0px 30px;
+
+}
   @media (max-width: 767px) {
     .shop-phone {
       display: none; } }

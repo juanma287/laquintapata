@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:755259dd4dcb491cf2-48202653%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:162555a00a9d8e2f7d6-47357668%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,23 +9,28 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '755259dd4dcb491cf2-48202653',
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59ea32ec44fdb4_15764178',
+  'nocache_hash' => '162555a00a9d8e2f7d6-47357668',
+  'variables' => 
+  array (
+    'infos' => 0,
+    'info' => 0,
+  ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a00a9d905add7_13225654',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59ea32ec44fdb4_15764178')) {function content_59ea32ec44fdb4_15764178($_smarty_tpl) {?><!-- MODULE Block cmsinfo -->
+<?php if ($_valid && !is_callable('content_5a00a9d905add7_13225654')) {function content_5a00a9d905add7_13225654($_smarty_tpl) {?><!-- MODULE Block cmsinfo -->
 <div id="cmsinfo_block">
 					<div class="col-xs-6"><ul><li><em class="icon-truck" id="icon-truck"></em>
 <div class="type-text">
 <h3>Envíos a domicilio</h3>
-<p>LLevamos el pedido a tu hogar! </p>
+<p>LLevamos el pedido a domicilio en el centro de la ciuidad sin costo adicional</p>
 </div>
 </li>
 <li><em class="icon-phone" id="icon-phone"></em>
 <div class="type-text">
-<h3>No dudes en llamar!</h3>
+<h3>Puede comunicarse </h3>
 <p>Si tiene alguna consulta acerca de nuestros productos, o desea información acerca de promociones, precios, detalles, etc. no dude en contactaerse con nosotros (0341) 156 088156 - 153 622094.</p>
 </div>
 </li>

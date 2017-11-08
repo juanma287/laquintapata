@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-10-25 19:16:12
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-07 18:15:15
          compiled from "C:\xampp\htdocs\laquintapatita\themes\agnezit\modules\blockcurrencies\blockcurrencies.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1515159f10d2c022d21-40897000%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1925a022263324eb8-60520408%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1515159f10d2c022d21-40897000',
+  'nocache_hash' => '1925a022263324eb8-60520408',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59f10d2c05fc22_51821087',
+  'unifunc' => 'content_5a022263386943_07068697',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59f10d2c05fc22_51821087')) {function content_59f10d2c05fc22_51821087($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a022263386943_07068697')) {function content_5a022263386943_07068697($_smarty_tpl) {?>
 <!-- Block currencies module -->
 <?php if (count($_smarty_tpl->tpl_vars['currencies']->value)>1) {?>
 	<div id="currencies-block-top">

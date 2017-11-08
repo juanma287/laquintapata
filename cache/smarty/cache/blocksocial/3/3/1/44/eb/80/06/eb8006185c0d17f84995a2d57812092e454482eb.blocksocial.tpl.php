@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:2003059de88f2956c94-34477135%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:216075a00a9e6677052-70278807%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,13 +9,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2003059de88f2956c94-34477135',
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59ea32da109168_98952688',
+  'nocache_hash' => '216075a00a9e6677052-70278807',
+  'variables' => 
+  array (
+    'facebook_url' => 0,
+    'twitter_url' => 0,
+    'rss_url' => 0,
+    'youtube_url' => 0,
+    'google_plus_url' => 0,
+    'pinterest_url' => 0,
+    'vimeo_url' => 0,
+    'instagram_url' => 0,
+  ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a00a9e67e4a58_77624635',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59ea32da109168_98952688')) {function content_59ea32da109168_98952688($_smarty_tpl) {?>	<ul id="social_block">
+<?php if ($_valid && !is_callable('content_5a00a9e67e4a58_77624635')) {function content_5a00a9e67e4a58_77624635($_smarty_tpl) {?>	<ul id="social_block">
 					<li class="facebook">
 				<a class="_blank" href="https://www.facebook.com/laquintapatacatering/">
 					<span>Facebook</span>

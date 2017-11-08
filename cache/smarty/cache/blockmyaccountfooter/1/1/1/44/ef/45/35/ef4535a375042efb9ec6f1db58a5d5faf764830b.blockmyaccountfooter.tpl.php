@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:2174659de88f1ae11e5-64281311%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:225005a00a9e1df74d2-45016846%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,13 +9,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2174659de88f1ae11e5-64281311',
+  'nocache_hash' => '225005a00a9e1df74d2-45016846',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59ea7df501afd2_40701034',
+  'unifunc' => 'content_5a021492cbf5f0_90541287',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59ea7df501afd2_40701034')) {function content_59ea7df501afd2_40701034($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a021492cbf5f0_90541287')) {function content_5a021492cbf5f0_90541287($_smarty_tpl) {?>
 <!-- Block myaccount module -->
 
 			<li><a href="http://localhost/laquintapatita/mi-cuenta" title="Administrar mi cuenta de cliente" rel="nofollow">Mi cuenta</a></li>

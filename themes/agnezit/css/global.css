@@ -7615,6 +7615,7 @@ div.star.star_hover:after {
     #cmsinfo_block {
       min-height: 354px;
       height: 354px;
+      min-height: 344px;
       padding-left: 13px;
       padding-right: 13px; } }
   @media (max-width: 767px) {
@@ -7665,7 +7666,7 @@ div.star.star_hover:after {
       #cmsinfo_block > div + div {
         border-left: none;
         padding-left: 10px;
-        min-height: 1px;
+        min-height: 344px;
         padding-bottom: 15px; } }
   #cmsinfo_block em {
     float: left;
